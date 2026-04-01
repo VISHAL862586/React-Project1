@@ -1,7 +1,9 @@
+import { useNavigate } from "react-router-dom";
 import Header from "../Header/Header";
 import "./Home.css";
 
 function Home() {
+  const navigate = useNavigate();
   return (
     <>
       <Header />
@@ -12,7 +14,9 @@ function Home() {
           <p>
             Report issues like garbage, water, roads and track status easily.
           </p>
-          <button className="hero-btn">Raise Complaint</button>
+          <button className="hero-btn" onClick={() => navigate("/complaint")}>
+            Raise Complaint
+          </button>
         </div>
       </section>
     </>

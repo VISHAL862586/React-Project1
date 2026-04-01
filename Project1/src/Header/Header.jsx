@@ -8,10 +8,10 @@ function Header(){
             <h2>Complaint</h2>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>Complaint</li>
-                    <li>History</li>
-                    <li>Contact</li>
+                    <li onClick={() => navigate("/")}>Home</li>
+                    <li onClick={() => navigate("/complaint")}>Complaint</li>
+                    <li onClick={() => navigate("/history")}>History</li> 
+                     <li>Contact</li>
                 </ul>
             </nav>
             <div>        

@@ -59,6 +59,10 @@
 
 .user-btn:hover {
   transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.4);
+}
+.user-btn:active {
+  transform: scale(0.98);
 }
 
 .user-text {
