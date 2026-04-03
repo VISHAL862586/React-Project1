@@ -8,13 +8,13 @@ function App() {
   );
 
   function handleYearChange(e){
-    setCar({...car, year:e.target.value})
+    setCar( car=> ({...car, year:e.target.value}))
   }
    function handleMakeChange(e){
-    setCar({...car, make:e.target.value})
+    setCar(car=>({...car, make:e.target.value}))
   }
    function handleModelChange(e){
-    setCar({...car, model:e.target.value})
+    setCar(car => ({...car, model:e.target.value}))
   }
 
 
