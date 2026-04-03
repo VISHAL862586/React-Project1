@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Food from './Food.jsx'
 
 function App() {
   const [car, setCar] = useState({ year:2024,
@@ -30,6 +31,7 @@ function App() {
         <input type="text" value={car.make} onChange={handleMakeChange}></input>
         <input type="text" value={car.model} onChange={handleModelChange}></input>
       </div>
+      <Food/>
     </> 
   )
 }
