@@ -1,0 +1,45 @@
+.admin-container {
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+}
+
+.admin-title {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.admin-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.admin-card {
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+}
+
+.status-dropdown {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  background: #334155;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+.delete-btn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
