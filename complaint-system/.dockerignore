@@ -1,0 +1,40 @@
+# Environment
+.env
+.env.*
+
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode
+.idea
+*.iml
+
+# Build output
+target
+build
+
+# Maven wrapper logs
+.mvn/wrapper/maven-wrapper.jar
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Documentation
+README.md
+
+# Node (if frontend is in same repository)
+node_modules
+dist
+
+# Docker
+docker-compose.yml
+
+# Temporary files
+*.tmp
+*.swp
